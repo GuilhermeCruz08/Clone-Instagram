@@ -1,0 +1,47 @@
+:root {
+  --preto: #000000;
+  --branco: #fcfcfc;
+  --cinza: #dcdcdc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: var(--branco);
+  display: flex;
+}
+
+.LateralEsquerda {
+  margin-inline: 10px;
+  background: var(--branco);
+  border-right: var(--cinza) solid;
+  height: 100vh;
+  width: 20vw;
+
+}
+
+.LateralDireita {
+  background: var(--branco);
+  border-left: var(--cinza) solid;
+  height: 100vh;
+  width: 15vw;
+}
+
+.ConteudoCentral {
+  display: flex;
+  justify-content: center;
+  background: var(--branco);
+  height: 100vh;
+  width: 65vw;
+}
+
+li {
+  display: flex;
+  align-items: center;
+
+}
